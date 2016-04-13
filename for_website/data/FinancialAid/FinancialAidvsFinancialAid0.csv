@@ -1,0 +1,6 @@
+Option,None,Just loans,Grants and loans,"Grants, covering some costs","Grants, covering all costs"
+None,505,0,0,0,0
+Just loans,0,40,0,0,0
+Grants and loans,0,0,166,0,0
+"Grants, covering some costs",0,0,0,147,0
+"Grants, covering all costs",0,0,0,0,75

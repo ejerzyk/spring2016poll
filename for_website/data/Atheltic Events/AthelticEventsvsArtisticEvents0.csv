@@ -1,0 +1,7 @@
+Option,More than once a week,Once a week,Once or twice a month,Once or twice a semester,Once a year,Never
+More than once a week,2,2,7,8,7,7
+Once a week,1,9,18,17,3,5
+Once or twice a month,2,10,41,36,10,9
+Once or twice a semester,3,12,67,92,20,10
+Once a year,4,18,62,76,21,9
+Never,18,26,93,127,48,34
