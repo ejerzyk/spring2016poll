@@ -25,10 +25,10 @@ text.active {
 <script src="http://d3js.org/d3.v2.min.js?2.8.1"></script>
 
 
-<h1>BDH Fall 2015 Poll Crosstabs</h1>
+<h1>BDH Spring 2016 Poll Crosstabs</h1>
 
 <aside style="margin-top:80px;">
-<p> This matrix visualizes the relationships between pairs of poll questions for the Brown Daily Herald Fall 2015 poll. Each square represents a pair of questions on the poll. The darker the square, the greater the degree to which the two questions are dependent.</p>
+<p>This matrix visualizes the relationships between pairs of poll questions for the Brown Daily Herald Spring 2016 poll. Each square represents a pair of questions on the poll. The darker the square, the greater the degree to which the two questions are dependent.</p>
 
 <p>
 To look at detailed statistics for a pair of questions, click on the corresponding square.
@@ -140,7 +140,7 @@ d3.json("adjacency.json", function(miserables) {
         .attr("height", x.rangeBand())
         .style("fill-opacity", function(d) { return z(d.z); })
         //.style("fill", function(d) { return nodes[d.x].group == nodes[d.y].group ? c(nodes[d.x].group) : null; })
-        .style("fill", "#4C9CC7")
+        .style("fill", "#AA6ABA") // HERE IS THE DARK COLOR
         .on("mouseover", mouseover)
         .on("mouseout", mouseout)
         .on("click", mouseclick);
